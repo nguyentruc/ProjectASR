@@ -10,7 +10,7 @@
 
 #define IC_ADDR 0x50
 
-const enum command_list
+const typedef enum
 {
     cmd_initialization = 0x01,
     cmd_load_command = 0x11,
@@ -38,6 +38,16 @@ void CM32VR60_reportTime(I2C_HandleTypeDef *CM32VR60_i2c_handle);
 int8_t CM32VR60_receiveI2C(I2C_HandleTypeDef *CM32VR60_i2c_handle,
         int8_t *revBuffer, uint8_t revLength);
 
+void CM32VR60_startRecognition(I2C_HandleTypeDef *CM32VR60_i2c_handle);
+
+void CM32VR60_resetCY(I2C_HandleTypeDef *CM32VR60_i2c_handle);
+
+void CM32VR60_resetModel(I2C_HandleTypeDef *CM32VR60_i2c_handle);
+
 void CM32VR60_init(I2C_HandleTypeDef *CM32VR60_i2c_handle);
+
+uint16_t *sizePtr();
+
+uint8_t *cmdModelPtr();
 
 #endif /* CM32VR60_H_ */

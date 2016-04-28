@@ -16,11 +16,12 @@ uint8_t rxByte = NULL;
 uint8_t rxBuffer[MAX_RX_BUFFER];
 uint8_t rxIndex = 0;
 uint8_t volatile cmdReceived;
-uint8_t operationFinished;
+
+rb_handle_t buffer;
 #else
 rb_handle_t buffer;
 #endif
-
+uint8_t operationFinished;
 DMA_HandleTypeDef dma_rx_params;
 I2C_HandleTypeDef i2c_handle;
 
@@ -29,6 +30,7 @@ void Usart_DMA_Init(void);
 void I2C_init(void);
 void GPIO_init(void);
 void print(const char *format, ...);
+void loadModel();
 
 int main()
 {
@@ -47,6 +49,8 @@ int main()
     HAL_NVIC_SetPriority(DMA1_Channel5_IRQn, 1, 0);
     HAL_NVIC_EnableIRQ(DMA1_Channel5_IRQn);
 
+    rb_init(&buffer, MAX_SIZE_RB);
+
     Usart_DMA_Init();
 
     if (HAL_UART_Receive_DMA(&bboard_uart1_handle, &rxByte, 1) != HAL_OK)
@@ -55,8 +59,10 @@ int main()
         while(1);
     }
 
+    HAL_Delay(2000);
     I2C_init();
-    CM32VR60_init(&i2c_handle);
+    //CM32VR60_init(&i2c_handle);
+    CM32VR60_initialization(&i2c_handle);
     GPIO_init();
 
     int8_t revBuffer[10] = {0x01, 0x02, 0x03, 0x04, 0x05, 0x06};
@@ -77,7 +83,7 @@ int main()
             int8_t status = CM32VR60_receiveI2C(&i2c_handle,
                     revBuffer, revLength);
 
-            print("Return code: 0x%02X\n", status);
+            print("Return code: %d\n", status);
 
             if (status >= 0)
             {
@@ -97,14 +103,90 @@ int main()
         }
         else if (memcmp(rxBuffer, "1", 2) == 0)
         {
-
+            CM32VR60_initialization(&i2c_handle);
+            revLength = 1;
+        }
+        else if (memcmp(rxBuffer, "2", 2) == 0)
+        {
+            CM32VR60_loadCommandModel(&i2c_handle);
+            revLength = 1;
+        }
+        else if (memcmp(rxBuffer, "8", 2) == 0)
+        {
+            CM32VR60_startRecognition(&i2c_handle);
+            revLength = 4;
+        }
+        else if (memcmp(rxBuffer, "4", 2) == 0)
+        {
+            CM32VR60_resetCY(&i2c_handle);
+            revLength = 1;
+        }
+        else if (memcmp(rxBuffer, "5", 2) == 0)
+        {
+            CM32VR60_resetModel(&i2c_handle);
+            revLength = 1;
         }
         else
         {
             bboard_usart1_printf("Wrong command\n");
         }
+#else
+        //while (rb_get_size(&buffer) == 0 && operationFinished == 0);
+
+        if (operationFinished == 1)
+        {
+            operationFinished = 0;
+        }
+
+        if (rb_get_size(&buffer) > 0)
+        {
+            uint8_t data[1];
+            rb_get_data(&buffer, data, 1);
+
+            if (data[0] == 0xFF) loadModel();
+        }
+
 #endif
     }
+}
+
+uint32_t ArrToLong(uint8_t *arr)
+{
+    uint32_t num = 0;
+
+    num |= arr[3] << 24;
+    num |= arr[2] << 16;
+    num |= arr[1] << 8;
+    num |= arr[0];
+
+    return num;
+}
+
+void loadModel()
+{
+    uint8_t sizeArr[4];
+    while (rb_get_size(&buffer) < 4);
+
+    rb_get_data(&buffer, sizeArr, 4);
+
+    uint32_t size = ArrToLong(sizeArr);
+    uint16_t *cmd_model_length = sizePtr();
+    *cmd_model_length = size;
+    uint8_t *cmd_model = cmdModelPtr();
+    uint32_t index = 0;
+
+    uint8_t data[1];
+    while (size)
+    {
+        if (rb_get_data(&buffer, data, 1) == 1)
+        {
+            size--;
+            cmd_model[index] = data[0];
+            index++;
+        }
+    }
+
+    CM32VR60_loadCommandModel(&i2c_handle);
 }
 
 void GPIO_init()
@@ -194,10 +276,10 @@ void HAL_UART_RxCpltCallback(UART_HandleTypeDef *huart)
     {
         __HAL_UART_FLUSH_DRREGISTER(huart);
 
-        /* Output back to UART */
-        bboard_usart1_printf("%c", rxByte);
 
 #if defined(DEBUG_MODE)
+        bboard_usart1_printf("%c", rxByte);
+
         /* Backspace or del */
         if (rxByte == 8 || rxByte == 127)
         {

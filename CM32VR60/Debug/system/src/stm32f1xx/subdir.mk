@@ -4,50 +4,50 @@
 
 # Add inputs and outputs from these tool invocations to the build variables 
 C_SRCS += \
-../system/src/stm32f1xx/stm32f1xx_hal.c \
-../system/src/stm32f1xx/stm32f1xx_hal_adc.c \
-../system/src/stm32f1xx/stm32f1xx_hal_adc_ex.c \
-../system/src/stm32f1xx/stm32f1xx_hal_can.c \
-../system/src/stm32f1xx/stm32f1xx_hal_cec.c \
-../system/src/stm32f1xx/stm32f1xx_hal_cortex.c \
-../system/src/stm32f1xx/stm32f1xx_hal_crc.c \
-../system/src/stm32f1xx/stm32f1xx_hal_dac.c \
-../system/src/stm32f1xx/stm32f1xx_hal_dac_ex.c \
-../system/src/stm32f1xx/stm32f1xx_hal_dma.c \
-../system/src/stm32f1xx/stm32f1xx_hal_eth.c \
-../system/src/stm32f1xx/stm32f1xx_hal_flash.c \
-../system/src/stm32f1xx/stm32f1xx_hal_flash_ex.c \
-../system/src/stm32f1xx/stm32f1xx_hal_gpio.c \
-../system/src/stm32f1xx/stm32f1xx_hal_gpio_ex.c \
-../system/src/stm32f1xx/stm32f1xx_hal_hcd.c \
-../system/src/stm32f1xx/stm32f1xx_hal_i2c.c \
-../system/src/stm32f1xx/stm32f1xx_hal_i2s.c \
-../system/src/stm32f1xx/stm32f1xx_hal_irda.c \
-../system/src/stm32f1xx/stm32f1xx_hal_iwdg.c \
-../system/src/stm32f1xx/stm32f1xx_hal_msp_template.c \
-../system/src/stm32f1xx/stm32f1xx_hal_nand.c \
-../system/src/stm32f1xx/stm32f1xx_hal_nor.c \
-../system/src/stm32f1xx/stm32f1xx_hal_pccard.c \
-../system/src/stm32f1xx/stm32f1xx_hal_pcd.c \
-../system/src/stm32f1xx/stm32f1xx_hal_pcd_ex.c \
-../system/src/stm32f1xx/stm32f1xx_hal_pwr.c \
-../system/src/stm32f1xx/stm32f1xx_hal_rcc.c \
-../system/src/stm32f1xx/stm32f1xx_hal_rcc_ex.c \
-../system/src/stm32f1xx/stm32f1xx_hal_rtc.c \
-../system/src/stm32f1xx/stm32f1xx_hal_rtc_ex.c \
-../system/src/stm32f1xx/stm32f1xx_hal_sd.c \
-../system/src/stm32f1xx/stm32f1xx_hal_smartcard.c \
-../system/src/stm32f1xx/stm32f1xx_hal_spi.c \
-../system/src/stm32f1xx/stm32f1xx_hal_spi_ex.c \
-../system/src/stm32f1xx/stm32f1xx_hal_sram.c \
-../system/src/stm32f1xx/stm32f1xx_hal_tim.c \
-../system/src/stm32f1xx/stm32f1xx_hal_tim_ex.c \
-../system/src/stm32f1xx/stm32f1xx_hal_uart.c \
-../system/src/stm32f1xx/stm32f1xx_hal_usart.c \
-../system/src/stm32f1xx/stm32f1xx_hal_wwdg.c \
-../system/src/stm32f1xx/stm32f1xx_ll_fsmc.c \
-../system/src/stm32f1xx/stm32f1xx_ll_sdmmc.c \
-../system/src/stm32f1xx/stm32f1xx_ll_usb.c 
+/home/dangnhat/HAL-Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c \
+/home/dangnhat/HAL-Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c \
+/home/dangnhat/HAL-Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc_ex.c \
+/home/dangnhat/HAL-Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_can.c \
+/home/dangnhat/HAL-Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cec.c \
+/home/dangnhat/HAL-Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c \
+/home/dangnhat/HAL-Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_crc.c \
+/home/dangnhat/HAL-Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dac.c \
+/home/dangnhat/HAL-Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dac_ex.c \
+/home/dangnhat/HAL-Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c \
+/home/dangnhat/HAL-Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_eth.c \
+/home/dangnhat/HAL-Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash.c \
+/home/dangnhat/HAL-Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash_ex.c \
+/home/dangnhat/HAL-Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c \
+/home/dangnhat/HAL-Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.c \
+/home/dangnhat/HAL-Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_hcd.c \
+/home/dangnhat/HAL-Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_i2c.c \
+/home/dangnhat/HAL-Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_i2s.c \
+/home/dangnhat/HAL-Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_irda.c \
+/home/dangnhat/HAL-Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_iwdg.c \
+/home/dangnhat/HAL-Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_msp_template.c \
+/home/dangnhat/HAL-Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_nand.c \
+/home/dangnhat/HAL-Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_nor.c \
+/home/dangnhat/HAL-Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pccard.c \
+/home/dangnhat/HAL-Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pcd.c \
+/home/dangnhat/HAL-Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pcd_ex.c \
+/home/dangnhat/HAL-Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.c \
+/home/dangnhat/HAL-Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c \
+/home/dangnhat/HAL-Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c \
+/home/dangnhat/HAL-Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rtc.c \
+/home/dangnhat/HAL-Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rtc_ex.c \
+/home/dangnhat/HAL-Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_sd.c \
+/home/dangnhat/HAL-Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_smartcard.c \
+/home/dangnhat/HAL-Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_spi.c \
+/home/dangnhat/HAL-Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_spi_ex.c \
+/home/dangnhat/HAL-Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_sram.c \
+/home/dangnhat/HAL-Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c \
+/home/dangnhat/HAL-Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c \
+/home/dangnhat/HAL-Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c \
+/home/dangnhat/HAL-Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_usart.c \
+/home/dangnhat/HAL-Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_wwdg.c \
+/home/dangnhat/HAL-Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_ll_fsmc.c \
+/home/dangnhat/HAL-Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_ll_sdmmc.c \
+/home/dangnhat/HAL-Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_ll_usb.c 
 
 OBJS += \
 ./system/src/stm32f1xx/stm32f1xx_hal.o \
@@ -143,10 +143,311 @@ C_DEPS += \
 
 
 # Each subdirectory must supply rules for building sources it contributes
-system/src/stm32f1xx/%.o: ../system/src/stm32f1xx/%.c
+system/src/stm32f1xx/stm32f1xx_hal.o: /home/dangnhat/HAL-Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c
 	@echo 'Building file: $<'
 	@echo 'Invoking: Cross ARM C Compiler'
-	arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -Og -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -fno-move-loop-invariants -Wall  -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xE -DTRACE -I"../include" -I"../system/include" -I"../system/include/CMSIS" -I"../system/include/stm32f1xx" -std=gnu99 -MMD -MP -MF"$(@:%.o=%.d)" -MT"$@" -c -o "$@" "$<"
+	arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -Og -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -fno-move-loop-invariants -Wall  -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xE -DTRACE -I/home/dangnhat/HAL-Drivers/STM32F1xx_HAL_Driver/Inc -I/home/dangnhat/HAL-Drivers/CMSIS/Include -I/home/dangnhat/HAL-Drivers/CMSIS/Device/ST/STM32F1xx/Include -I"../include" -I"../system/include" -I"../system/include/CMSIS" -I"../system/include/stm32f1xx" -std=gnu99 -MMD -MP -MF"$(@:%.o=%.d)" -MT"$@" -c -o "$@" "$<"
+	@echo 'Finished building: $<'
+	@echo ' '
+
+system/src/stm32f1xx/stm32f1xx_hal_adc.o: /home/dangnhat/HAL-Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c
+	@echo 'Building file: $<'
+	@echo 'Invoking: Cross ARM C Compiler'
+	arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -Og -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -fno-move-loop-invariants -Wall  -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xE -DTRACE -I/home/dangnhat/HAL-Drivers/STM32F1xx_HAL_Driver/Inc -I/home/dangnhat/HAL-Drivers/CMSIS/Include -I/home/dangnhat/HAL-Drivers/CMSIS/Device/ST/STM32F1xx/Include -I"../include" -I"../system/include" -I"../system/include/CMSIS" -I"../system/include/stm32f1xx" -std=gnu99 -MMD -MP -MF"$(@:%.o=%.d)" -MT"$@" -c -o "$@" "$<"
+	@echo 'Finished building: $<'
+	@echo ' '
+
+system/src/stm32f1xx/stm32f1xx_hal_adc_ex.o: /home/dangnhat/HAL-Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc_ex.c
+	@echo 'Building file: $<'
+	@echo 'Invoking: Cross ARM C Compiler'
+	arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -Og -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -fno-move-loop-invariants -Wall  -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xE -DTRACE -I/home/dangnhat/HAL-Drivers/STM32F1xx_HAL_Driver/Inc -I/home/dangnhat/HAL-Drivers/CMSIS/Include -I/home/dangnhat/HAL-Drivers/CMSIS/Device/ST/STM32F1xx/Include -I"../include" -I"../system/include" -I"../system/include/CMSIS" -I"../system/include/stm32f1xx" -std=gnu99 -MMD -MP -MF"$(@:%.o=%.d)" -MT"$@" -c -o "$@" "$<"
+	@echo 'Finished building: $<'
+	@echo ' '
+
+system/src/stm32f1xx/stm32f1xx_hal_can.o: /home/dangnhat/HAL-Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_can.c
+	@echo 'Building file: $<'
+	@echo 'Invoking: Cross ARM C Compiler'
+	arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -Og -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -fno-move-loop-invariants -Wall  -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xE -DTRACE -I/home/dangnhat/HAL-Drivers/STM32F1xx_HAL_Driver/Inc -I/home/dangnhat/HAL-Drivers/CMSIS/Include -I/home/dangnhat/HAL-Drivers/CMSIS/Device/ST/STM32F1xx/Include -I"../include" -I"../system/include" -I"../system/include/CMSIS" -I"../system/include/stm32f1xx" -std=gnu99 -MMD -MP -MF"$(@:%.o=%.d)" -MT"$@" -c -o "$@" "$<"
+	@echo 'Finished building: $<'
+	@echo ' '
+
+system/src/stm32f1xx/stm32f1xx_hal_cec.o: /home/dangnhat/HAL-Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cec.c
+	@echo 'Building file: $<'
+	@echo 'Invoking: Cross ARM C Compiler'
+	arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -Og -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -fno-move-loop-invariants -Wall  -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xE -DTRACE -I/home/dangnhat/HAL-Drivers/STM32F1xx_HAL_Driver/Inc -I/home/dangnhat/HAL-Drivers/CMSIS/Include -I/home/dangnhat/HAL-Drivers/CMSIS/Device/ST/STM32F1xx/Include -I"../include" -I"../system/include" -I"../system/include/CMSIS" -I"../system/include/stm32f1xx" -std=gnu99 -MMD -MP -MF"$(@:%.o=%.d)" -MT"$@" -c -o "$@" "$<"
+	@echo 'Finished building: $<'
+	@echo ' '
+
+system/src/stm32f1xx/stm32f1xx_hal_cortex.o: /home/dangnhat/HAL-Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c
+	@echo 'Building file: $<'
+	@echo 'Invoking: Cross ARM C Compiler'
+	arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -Og -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -fno-move-loop-invariants -Wall  -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xE -DTRACE -I/home/dangnhat/HAL-Drivers/STM32F1xx_HAL_Driver/Inc -I/home/dangnhat/HAL-Drivers/CMSIS/Include -I/home/dangnhat/HAL-Drivers/CMSIS/Device/ST/STM32F1xx/Include -I"../include" -I"../system/include" -I"../system/include/CMSIS" -I"../system/include/stm32f1xx" -std=gnu99 -MMD -MP -MF"$(@:%.o=%.d)" -MT"$@" -c -o "$@" "$<"
+	@echo 'Finished building: $<'
+	@echo ' '
+
+system/src/stm32f1xx/stm32f1xx_hal_crc.o: /home/dangnhat/HAL-Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_crc.c
+	@echo 'Building file: $<'
+	@echo 'Invoking: Cross ARM C Compiler'
+	arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -Og -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -fno-move-loop-invariants -Wall  -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xE -DTRACE -I/home/dangnhat/HAL-Drivers/STM32F1xx_HAL_Driver/Inc -I/home/dangnhat/HAL-Drivers/CMSIS/Include -I/home/dangnhat/HAL-Drivers/CMSIS/Device/ST/STM32F1xx/Include -I"../include" -I"../system/include" -I"../system/include/CMSIS" -I"../system/include/stm32f1xx" -std=gnu99 -MMD -MP -MF"$(@:%.o=%.d)" -MT"$@" -c -o "$@" "$<"
+	@echo 'Finished building: $<'
+	@echo ' '
+
+system/src/stm32f1xx/stm32f1xx_hal_dac.o: /home/dangnhat/HAL-Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dac.c
+	@echo 'Building file: $<'
+	@echo 'Invoking: Cross ARM C Compiler'
+	arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -Og -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -fno-move-loop-invariants -Wall  -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xE -DTRACE -I/home/dangnhat/HAL-Drivers/STM32F1xx_HAL_Driver/Inc -I/home/dangnhat/HAL-Drivers/CMSIS/Include -I/home/dangnhat/HAL-Drivers/CMSIS/Device/ST/STM32F1xx/Include -I"../include" -I"../system/include" -I"../system/include/CMSIS" -I"../system/include/stm32f1xx" -std=gnu99 -MMD -MP -MF"$(@:%.o=%.d)" -MT"$@" -c -o "$@" "$<"
+	@echo 'Finished building: $<'
+	@echo ' '
+
+system/src/stm32f1xx/stm32f1xx_hal_dac_ex.o: /home/dangnhat/HAL-Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dac_ex.c
+	@echo 'Building file: $<'
+	@echo 'Invoking: Cross ARM C Compiler'
+	arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -Og -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -fno-move-loop-invariants -Wall  -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xE -DTRACE -I/home/dangnhat/HAL-Drivers/STM32F1xx_HAL_Driver/Inc -I/home/dangnhat/HAL-Drivers/CMSIS/Include -I/home/dangnhat/HAL-Drivers/CMSIS/Device/ST/STM32F1xx/Include -I"../include" -I"../system/include" -I"../system/include/CMSIS" -I"../system/include/stm32f1xx" -std=gnu99 -MMD -MP -MF"$(@:%.o=%.d)" -MT"$@" -c -o "$@" "$<"
+	@echo 'Finished building: $<'
+	@echo ' '
+
+system/src/stm32f1xx/stm32f1xx_hal_dma.o: /home/dangnhat/HAL-Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c
+	@echo 'Building file: $<'
+	@echo 'Invoking: Cross ARM C Compiler'
+	arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -Og -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -fno-move-loop-invariants -Wall  -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xE -DTRACE -I/home/dangnhat/HAL-Drivers/STM32F1xx_HAL_Driver/Inc -I/home/dangnhat/HAL-Drivers/CMSIS/Include -I/home/dangnhat/HAL-Drivers/CMSIS/Device/ST/STM32F1xx/Include -I"../include" -I"../system/include" -I"../system/include/CMSIS" -I"../system/include/stm32f1xx" -std=gnu99 -MMD -MP -MF"$(@:%.o=%.d)" -MT"$@" -c -o "$@" "$<"
+	@echo 'Finished building: $<'
+	@echo ' '
+
+system/src/stm32f1xx/stm32f1xx_hal_eth.o: /home/dangnhat/HAL-Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_eth.c
+	@echo 'Building file: $<'
+	@echo 'Invoking: Cross ARM C Compiler'
+	arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -Og -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -fno-move-loop-invariants -Wall  -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xE -DTRACE -I/home/dangnhat/HAL-Drivers/STM32F1xx_HAL_Driver/Inc -I/home/dangnhat/HAL-Drivers/CMSIS/Include -I/home/dangnhat/HAL-Drivers/CMSIS/Device/ST/STM32F1xx/Include -I"../include" -I"../system/include" -I"../system/include/CMSIS" -I"../system/include/stm32f1xx" -std=gnu99 -MMD -MP -MF"$(@:%.o=%.d)" -MT"$@" -c -o "$@" "$<"
+	@echo 'Finished building: $<'
+	@echo ' '
+
+system/src/stm32f1xx/stm32f1xx_hal_flash.o: /home/dangnhat/HAL-Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash.c
+	@echo 'Building file: $<'
+	@echo 'Invoking: Cross ARM C Compiler'
+	arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -Og -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -fno-move-loop-invariants -Wall  -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xE -DTRACE -I/home/dangnhat/HAL-Drivers/STM32F1xx_HAL_Driver/Inc -I/home/dangnhat/HAL-Drivers/CMSIS/Include -I/home/dangnhat/HAL-Drivers/CMSIS/Device/ST/STM32F1xx/Include -I"../include" -I"../system/include" -I"../system/include/CMSIS" -I"../system/include/stm32f1xx" -std=gnu99 -MMD -MP -MF"$(@:%.o=%.d)" -MT"$@" -c -o "$@" "$<"
+	@echo 'Finished building: $<'
+	@echo ' '
+
+system/src/stm32f1xx/stm32f1xx_hal_flash_ex.o: /home/dangnhat/HAL-Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash_ex.c
+	@echo 'Building file: $<'
+	@echo 'Invoking: Cross ARM C Compiler'
+	arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -Og -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -fno-move-loop-invariants -Wall  -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xE -DTRACE -I/home/dangnhat/HAL-Drivers/STM32F1xx_HAL_Driver/Inc -I/home/dangnhat/HAL-Drivers/CMSIS/Include -I/home/dangnhat/HAL-Drivers/CMSIS/Device/ST/STM32F1xx/Include -I"../include" -I"../system/include" -I"../system/include/CMSIS" -I"../system/include/stm32f1xx" -std=gnu99 -MMD -MP -MF"$(@:%.o=%.d)" -MT"$@" -c -o "$@" "$<"
+	@echo 'Finished building: $<'
+	@echo ' '
+
+system/src/stm32f1xx/stm32f1xx_hal_gpio.o: /home/dangnhat/HAL-Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c
+	@echo 'Building file: $<'
+	@echo 'Invoking: Cross ARM C Compiler'
+	arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -Og -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -fno-move-loop-invariants -Wall  -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xE -DTRACE -I/home/dangnhat/HAL-Drivers/STM32F1xx_HAL_Driver/Inc -I/home/dangnhat/HAL-Drivers/CMSIS/Include -I/home/dangnhat/HAL-Drivers/CMSIS/Device/ST/STM32F1xx/Include -I"../include" -I"../system/include" -I"../system/include/CMSIS" -I"../system/include/stm32f1xx" -std=gnu99 -MMD -MP -MF"$(@:%.o=%.d)" -MT"$@" -c -o "$@" "$<"
+	@echo 'Finished building: $<'
+	@echo ' '
+
+system/src/stm32f1xx/stm32f1xx_hal_gpio_ex.o: /home/dangnhat/HAL-Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.c
+	@echo 'Building file: $<'
+	@echo 'Invoking: Cross ARM C Compiler'
+	arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -Og -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -fno-move-loop-invariants -Wall  -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xE -DTRACE -I/home/dangnhat/HAL-Drivers/STM32F1xx_HAL_Driver/Inc -I/home/dangnhat/HAL-Drivers/CMSIS/Include -I/home/dangnhat/HAL-Drivers/CMSIS/Device/ST/STM32F1xx/Include -I"../include" -I"../system/include" -I"../system/include/CMSIS" -I"../system/include/stm32f1xx" -std=gnu99 -MMD -MP -MF"$(@:%.o=%.d)" -MT"$@" -c -o "$@" "$<"
+	@echo 'Finished building: $<'
+	@echo ' '
+
+system/src/stm32f1xx/stm32f1xx_hal_hcd.o: /home/dangnhat/HAL-Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_hcd.c
+	@echo 'Building file: $<'
+	@echo 'Invoking: Cross ARM C Compiler'
+	arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -Og -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -fno-move-loop-invariants -Wall  -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xE -DTRACE -I/home/dangnhat/HAL-Drivers/STM32F1xx_HAL_Driver/Inc -I/home/dangnhat/HAL-Drivers/CMSIS/Include -I/home/dangnhat/HAL-Drivers/CMSIS/Device/ST/STM32F1xx/Include -I"../include" -I"../system/include" -I"../system/include/CMSIS" -I"../system/include/stm32f1xx" -std=gnu99 -MMD -MP -MF"$(@:%.o=%.d)" -MT"$@" -c -o "$@" "$<"
+	@echo 'Finished building: $<'
+	@echo ' '
+
+system/src/stm32f1xx/stm32f1xx_hal_i2c.o: /home/dangnhat/HAL-Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_i2c.c
+	@echo 'Building file: $<'
+	@echo 'Invoking: Cross ARM C Compiler'
+	arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -Og -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -fno-move-loop-invariants -Wall  -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xE -DTRACE -I/home/dangnhat/HAL-Drivers/STM32F1xx_HAL_Driver/Inc -I/home/dangnhat/HAL-Drivers/CMSIS/Include -I/home/dangnhat/HAL-Drivers/CMSIS/Device/ST/STM32F1xx/Include -I"../include" -I"../system/include" -I"../system/include/CMSIS" -I"../system/include/stm32f1xx" -std=gnu99 -MMD -MP -MF"$(@:%.o=%.d)" -MT"$@" -c -o "$@" "$<"
+	@echo 'Finished building: $<'
+	@echo ' '
+
+system/src/stm32f1xx/stm32f1xx_hal_i2s.o: /home/dangnhat/HAL-Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_i2s.c
+	@echo 'Building file: $<'
+	@echo 'Invoking: Cross ARM C Compiler'
+	arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -Og -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -fno-move-loop-invariants -Wall  -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xE -DTRACE -I/home/dangnhat/HAL-Drivers/STM32F1xx_HAL_Driver/Inc -I/home/dangnhat/HAL-Drivers/CMSIS/Include -I/home/dangnhat/HAL-Drivers/CMSIS/Device/ST/STM32F1xx/Include -I"../include" -I"../system/include" -I"../system/include/CMSIS" -I"../system/include/stm32f1xx" -std=gnu99 -MMD -MP -MF"$(@:%.o=%.d)" -MT"$@" -c -o "$@" "$<"
+	@echo 'Finished building: $<'
+	@echo ' '
+
+system/src/stm32f1xx/stm32f1xx_hal_irda.o: /home/dangnhat/HAL-Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_irda.c
+	@echo 'Building file: $<'
+	@echo 'Invoking: Cross ARM C Compiler'
+	arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -Og -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -fno-move-loop-invariants -Wall  -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xE -DTRACE -I/home/dangnhat/HAL-Drivers/STM32F1xx_HAL_Driver/Inc -I/home/dangnhat/HAL-Drivers/CMSIS/Include -I/home/dangnhat/HAL-Drivers/CMSIS/Device/ST/STM32F1xx/Include -I"../include" -I"../system/include" -I"../system/include/CMSIS" -I"../system/include/stm32f1xx" -std=gnu99 -MMD -MP -MF"$(@:%.o=%.d)" -MT"$@" -c -o "$@" "$<"
+	@echo 'Finished building: $<'
+	@echo ' '
+
+system/src/stm32f1xx/stm32f1xx_hal_iwdg.o: /home/dangnhat/HAL-Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_iwdg.c
+	@echo 'Building file: $<'
+	@echo 'Invoking: Cross ARM C Compiler'
+	arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -Og -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -fno-move-loop-invariants -Wall  -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xE -DTRACE -I/home/dangnhat/HAL-Drivers/STM32F1xx_HAL_Driver/Inc -I/home/dangnhat/HAL-Drivers/CMSIS/Include -I/home/dangnhat/HAL-Drivers/CMSIS/Device/ST/STM32F1xx/Include -I"../include" -I"../system/include" -I"../system/include/CMSIS" -I"../system/include/stm32f1xx" -std=gnu99 -MMD -MP -MF"$(@:%.o=%.d)" -MT"$@" -c -o "$@" "$<"
+	@echo 'Finished building: $<'
+	@echo ' '
+
+system/src/stm32f1xx/stm32f1xx_hal_msp_template.o: /home/dangnhat/HAL-Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_msp_template.c
+	@echo 'Building file: $<'
+	@echo 'Invoking: Cross ARM C Compiler'
+	arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -Og -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -fno-move-loop-invariants -Wall  -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xE -DTRACE -I/home/dangnhat/HAL-Drivers/STM32F1xx_HAL_Driver/Inc -I/home/dangnhat/HAL-Drivers/CMSIS/Include -I/home/dangnhat/HAL-Drivers/CMSIS/Device/ST/STM32F1xx/Include -I"../include" -I"../system/include" -I"../system/include/CMSIS" -I"../system/include/stm32f1xx" -std=gnu99 -MMD -MP -MF"$(@:%.o=%.d)" -MT"$@" -c -o "$@" "$<"
+	@echo 'Finished building: $<'
+	@echo ' '
+
+system/src/stm32f1xx/stm32f1xx_hal_nand.o: /home/dangnhat/HAL-Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_nand.c
+	@echo 'Building file: $<'
+	@echo 'Invoking: Cross ARM C Compiler'
+	arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -Og -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -fno-move-loop-invariants -Wall  -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xE -DTRACE -I/home/dangnhat/HAL-Drivers/STM32F1xx_HAL_Driver/Inc -I/home/dangnhat/HAL-Drivers/CMSIS/Include -I/home/dangnhat/HAL-Drivers/CMSIS/Device/ST/STM32F1xx/Include -I"../include" -I"../system/include" -I"../system/include/CMSIS" -I"../system/include/stm32f1xx" -std=gnu99 -MMD -MP -MF"$(@:%.o=%.d)" -MT"$@" -c -o "$@" "$<"
+	@echo 'Finished building: $<'
+	@echo ' '
+
+system/src/stm32f1xx/stm32f1xx_hal_nor.o: /home/dangnhat/HAL-Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_nor.c
+	@echo 'Building file: $<'
+	@echo 'Invoking: Cross ARM C Compiler'
+	arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -Og -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -fno-move-loop-invariants -Wall  -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xE -DTRACE -I/home/dangnhat/HAL-Drivers/STM32F1xx_HAL_Driver/Inc -I/home/dangnhat/HAL-Drivers/CMSIS/Include -I/home/dangnhat/HAL-Drivers/CMSIS/Device/ST/STM32F1xx/Include -I"../include" -I"../system/include" -I"../system/include/CMSIS" -I"../system/include/stm32f1xx" -std=gnu99 -MMD -MP -MF"$(@:%.o=%.d)" -MT"$@" -c -o "$@" "$<"
+	@echo 'Finished building: $<'
+	@echo ' '
+
+system/src/stm32f1xx/stm32f1xx_hal_pccard.o: /home/dangnhat/HAL-Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pccard.c
+	@echo 'Building file: $<'
+	@echo 'Invoking: Cross ARM C Compiler'
+	arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -Og -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -fno-move-loop-invariants -Wall  -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xE -DTRACE -I/home/dangnhat/HAL-Drivers/STM32F1xx_HAL_Driver/Inc -I/home/dangnhat/HAL-Drivers/CMSIS/Include -I/home/dangnhat/HAL-Drivers/CMSIS/Device/ST/STM32F1xx/Include -I"../include" -I"../system/include" -I"../system/include/CMSIS" -I"../system/include/stm32f1xx" -std=gnu99 -MMD -MP -MF"$(@:%.o=%.d)" -MT"$@" -c -o "$@" "$<"
+	@echo 'Finished building: $<'
+	@echo ' '
+
+system/src/stm32f1xx/stm32f1xx_hal_pcd.o: /home/dangnhat/HAL-Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pcd.c
+	@echo 'Building file: $<'
+	@echo 'Invoking: Cross ARM C Compiler'
+	arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -Og -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -fno-move-loop-invariants -Wall  -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xE -DTRACE -I/home/dangnhat/HAL-Drivers/STM32F1xx_HAL_Driver/Inc -I/home/dangnhat/HAL-Drivers/CMSIS/Include -I/home/dangnhat/HAL-Drivers/CMSIS/Device/ST/STM32F1xx/Include -I"../include" -I"../system/include" -I"../system/include/CMSIS" -I"../system/include/stm32f1xx" -std=gnu99 -MMD -MP -MF"$(@:%.o=%.d)" -MT"$@" -c -o "$@" "$<"
+	@echo 'Finished building: $<'
+	@echo ' '
+
+system/src/stm32f1xx/stm32f1xx_hal_pcd_ex.o: /home/dangnhat/HAL-Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pcd_ex.c
+	@echo 'Building file: $<'
+	@echo 'Invoking: Cross ARM C Compiler'
+	arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -Og -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -fno-move-loop-invariants -Wall  -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xE -DTRACE -I/home/dangnhat/HAL-Drivers/STM32F1xx_HAL_Driver/Inc -I/home/dangnhat/HAL-Drivers/CMSIS/Include -I/home/dangnhat/HAL-Drivers/CMSIS/Device/ST/STM32F1xx/Include -I"../include" -I"../system/include" -I"../system/include/CMSIS" -I"../system/include/stm32f1xx" -std=gnu99 -MMD -MP -MF"$(@:%.o=%.d)" -MT"$@" -c -o "$@" "$<"
+	@echo 'Finished building: $<'
+	@echo ' '
+
+system/src/stm32f1xx/stm32f1xx_hal_pwr.o: /home/dangnhat/HAL-Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.c
+	@echo 'Building file: $<'
+	@echo 'Invoking: Cross ARM C Compiler'
+	arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -Og -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -fno-move-loop-invariants -Wall  -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xE -DTRACE -I/home/dangnhat/HAL-Drivers/STM32F1xx_HAL_Driver/Inc -I/home/dangnhat/HAL-Drivers/CMSIS/Include -I/home/dangnhat/HAL-Drivers/CMSIS/Device/ST/STM32F1xx/Include -I"../include" -I"../system/include" -I"../system/include/CMSIS" -I"../system/include/stm32f1xx" -std=gnu99 -MMD -MP -MF"$(@:%.o=%.d)" -MT"$@" -c -o "$@" "$<"
+	@echo 'Finished building: $<'
+	@echo ' '
+
+system/src/stm32f1xx/stm32f1xx_hal_rcc.o: /home/dangnhat/HAL-Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c
+	@echo 'Building file: $<'
+	@echo 'Invoking: Cross ARM C Compiler'
+	arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -Og -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -fno-move-loop-invariants -Wall  -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xE -DTRACE -I/home/dangnhat/HAL-Drivers/STM32F1xx_HAL_Driver/Inc -I/home/dangnhat/HAL-Drivers/CMSIS/Include -I/home/dangnhat/HAL-Drivers/CMSIS/Device/ST/STM32F1xx/Include -I"../include" -I"../system/include" -I"../system/include/CMSIS" -I"../system/include/stm32f1xx" -std=gnu99 -MMD -MP -MF"$(@:%.o=%.d)" -MT"$@" -c -o "$@" "$<"
+	@echo 'Finished building: $<'
+	@echo ' '
+
+system/src/stm32f1xx/stm32f1xx_hal_rcc_ex.o: /home/dangnhat/HAL-Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c
+	@echo 'Building file: $<'
+	@echo 'Invoking: Cross ARM C Compiler'
+	arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -Og -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -fno-move-loop-invariants -Wall  -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xE -DTRACE -I/home/dangnhat/HAL-Drivers/STM32F1xx_HAL_Driver/Inc -I/home/dangnhat/HAL-Drivers/CMSIS/Include -I/home/dangnhat/HAL-Drivers/CMSIS/Device/ST/STM32F1xx/Include -I"../include" -I"../system/include" -I"../system/include/CMSIS" -I"../system/include/stm32f1xx" -std=gnu99 -MMD -MP -MF"$(@:%.o=%.d)" -MT"$@" -c -o "$@" "$<"
+	@echo 'Finished building: $<'
+	@echo ' '
+
+system/src/stm32f1xx/stm32f1xx_hal_rtc.o: /home/dangnhat/HAL-Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rtc.c
+	@echo 'Building file: $<'
+	@echo 'Invoking: Cross ARM C Compiler'
+	arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -Og -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -fno-move-loop-invariants -Wall  -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xE -DTRACE -I/home/dangnhat/HAL-Drivers/STM32F1xx_HAL_Driver/Inc -I/home/dangnhat/HAL-Drivers/CMSIS/Include -I/home/dangnhat/HAL-Drivers/CMSIS/Device/ST/STM32F1xx/Include -I"../include" -I"../system/include" -I"../system/include/CMSIS" -I"../system/include/stm32f1xx" -std=gnu99 -MMD -MP -MF"$(@:%.o=%.d)" -MT"$@" -c -o "$@" "$<"
+	@echo 'Finished building: $<'
+	@echo ' '
+
+system/src/stm32f1xx/stm32f1xx_hal_rtc_ex.o: /home/dangnhat/HAL-Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rtc_ex.c
+	@echo 'Building file: $<'
+	@echo 'Invoking: Cross ARM C Compiler'
+	arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -Og -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -fno-move-loop-invariants -Wall  -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xE -DTRACE -I/home/dangnhat/HAL-Drivers/STM32F1xx_HAL_Driver/Inc -I/home/dangnhat/HAL-Drivers/CMSIS/Include -I/home/dangnhat/HAL-Drivers/CMSIS/Device/ST/STM32F1xx/Include -I"../include" -I"../system/include" -I"../system/include/CMSIS" -I"../system/include/stm32f1xx" -std=gnu99 -MMD -MP -MF"$(@:%.o=%.d)" -MT"$@" -c -o "$@" "$<"
+	@echo 'Finished building: $<'
+	@echo ' '
+
+system/src/stm32f1xx/stm32f1xx_hal_sd.o: /home/dangnhat/HAL-Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_sd.c
+	@echo 'Building file: $<'
+	@echo 'Invoking: Cross ARM C Compiler'
+	arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -Og -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -fno-move-loop-invariants -Wall  -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xE -DTRACE -I/home/dangnhat/HAL-Drivers/STM32F1xx_HAL_Driver/Inc -I/home/dangnhat/HAL-Drivers/CMSIS/Include -I/home/dangnhat/HAL-Drivers/CMSIS/Device/ST/STM32F1xx/Include -I"../include" -I"../system/include" -I"../system/include/CMSIS" -I"../system/include/stm32f1xx" -std=gnu99 -MMD -MP -MF"$(@:%.o=%.d)" -MT"$@" -c -o "$@" "$<"
+	@echo 'Finished building: $<'
+	@echo ' '
+
+system/src/stm32f1xx/stm32f1xx_hal_smartcard.o: /home/dangnhat/HAL-Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_smartcard.c
+	@echo 'Building file: $<'
+	@echo 'Invoking: Cross ARM C Compiler'
+	arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -Og -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -fno-move-loop-invariants -Wall  -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xE -DTRACE -I/home/dangnhat/HAL-Drivers/STM32F1xx_HAL_Driver/Inc -I/home/dangnhat/HAL-Drivers/CMSIS/Include -I/home/dangnhat/HAL-Drivers/CMSIS/Device/ST/STM32F1xx/Include -I"../include" -I"../system/include" -I"../system/include/CMSIS" -I"../system/include/stm32f1xx" -std=gnu99 -MMD -MP -MF"$(@:%.o=%.d)" -MT"$@" -c -o "$@" "$<"
+	@echo 'Finished building: $<'
+	@echo ' '
+
+system/src/stm32f1xx/stm32f1xx_hal_spi.o: /home/dangnhat/HAL-Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_spi.c
+	@echo 'Building file: $<'
+	@echo 'Invoking: Cross ARM C Compiler'
+	arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -Og -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -fno-move-loop-invariants -Wall  -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xE -DTRACE -I/home/dangnhat/HAL-Drivers/STM32F1xx_HAL_Driver/Inc -I/home/dangnhat/HAL-Drivers/CMSIS/Include -I/home/dangnhat/HAL-Drivers/CMSIS/Device/ST/STM32F1xx/Include -I"../include" -I"../system/include" -I"../system/include/CMSIS" -I"../system/include/stm32f1xx" -std=gnu99 -MMD -MP -MF"$(@:%.o=%.d)" -MT"$@" -c -o "$@" "$<"
+	@echo 'Finished building: $<'
+	@echo ' '
+
+system/src/stm32f1xx/stm32f1xx_hal_spi_ex.o: /home/dangnhat/HAL-Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_spi_ex.c
+	@echo 'Building file: $<'
+	@echo 'Invoking: Cross ARM C Compiler'
+	arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -Og -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -fno-move-loop-invariants -Wall  -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xE -DTRACE -I/home/dangnhat/HAL-Drivers/STM32F1xx_HAL_Driver/Inc -I/home/dangnhat/HAL-Drivers/CMSIS/Include -I/home/dangnhat/HAL-Drivers/CMSIS/Device/ST/STM32F1xx/Include -I"../include" -I"../system/include" -I"../system/include/CMSIS" -I"../system/include/stm32f1xx" -std=gnu99 -MMD -MP -MF"$(@:%.o=%.d)" -MT"$@" -c -o "$@" "$<"
+	@echo 'Finished building: $<'
+	@echo ' '
+
+system/src/stm32f1xx/stm32f1xx_hal_sram.o: /home/dangnhat/HAL-Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_sram.c
+	@echo 'Building file: $<'
+	@echo 'Invoking: Cross ARM C Compiler'
+	arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -Og -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -fno-move-loop-invariants -Wall  -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xE -DTRACE -I/home/dangnhat/HAL-Drivers/STM32F1xx_HAL_Driver/Inc -I/home/dangnhat/HAL-Drivers/CMSIS/Include -I/home/dangnhat/HAL-Drivers/CMSIS/Device/ST/STM32F1xx/Include -I"../include" -I"../system/include" -I"../system/include/CMSIS" -I"../system/include/stm32f1xx" -std=gnu99 -MMD -MP -MF"$(@:%.o=%.d)" -MT"$@" -c -o "$@" "$<"
+	@echo 'Finished building: $<'
+	@echo ' '
+
+system/src/stm32f1xx/stm32f1xx_hal_tim.o: /home/dangnhat/HAL-Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c
+	@echo 'Building file: $<'
+	@echo 'Invoking: Cross ARM C Compiler'
+	arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -Og -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -fno-move-loop-invariants -Wall  -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xE -DTRACE -I/home/dangnhat/HAL-Drivers/STM32F1xx_HAL_Driver/Inc -I/home/dangnhat/HAL-Drivers/CMSIS/Include -I/home/dangnhat/HAL-Drivers/CMSIS/Device/ST/STM32F1xx/Include -I"../include" -I"../system/include" -I"../system/include/CMSIS" -I"../system/include/stm32f1xx" -std=gnu99 -MMD -MP -MF"$(@:%.o=%.d)" -MT"$@" -c -o "$@" "$<"
+	@echo 'Finished building: $<'
+	@echo ' '
+
+system/src/stm32f1xx/stm32f1xx_hal_tim_ex.o: /home/dangnhat/HAL-Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c
+	@echo 'Building file: $<'
+	@echo 'Invoking: Cross ARM C Compiler'
+	arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -Og -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -fno-move-loop-invariants -Wall  -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xE -DTRACE -I/home/dangnhat/HAL-Drivers/STM32F1xx_HAL_Driver/Inc -I/home/dangnhat/HAL-Drivers/CMSIS/Include -I/home/dangnhat/HAL-Drivers/CMSIS/Device/ST/STM32F1xx/Include -I"../include" -I"../system/include" -I"../system/include/CMSIS" -I"../system/include/stm32f1xx" -std=gnu99 -MMD -MP -MF"$(@:%.o=%.d)" -MT"$@" -c -o "$@" "$<"
+	@echo 'Finished building: $<'
+	@echo ' '
+
+system/src/stm32f1xx/stm32f1xx_hal_uart.o: /home/dangnhat/HAL-Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c
+	@echo 'Building file: $<'
+	@echo 'Invoking: Cross ARM C Compiler'
+	arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -Og -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -fno-move-loop-invariants -Wall  -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xE -DTRACE -I/home/dangnhat/HAL-Drivers/STM32F1xx_HAL_Driver/Inc -I/home/dangnhat/HAL-Drivers/CMSIS/Include -I/home/dangnhat/HAL-Drivers/CMSIS/Device/ST/STM32F1xx/Include -I"../include" -I"../system/include" -I"../system/include/CMSIS" -I"../system/include/stm32f1xx" -std=gnu99 -MMD -MP -MF"$(@:%.o=%.d)" -MT"$@" -c -o "$@" "$<"
+	@echo 'Finished building: $<'
+	@echo ' '
+
+system/src/stm32f1xx/stm32f1xx_hal_usart.o: /home/dangnhat/HAL-Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_usart.c
+	@echo 'Building file: $<'
+	@echo 'Invoking: Cross ARM C Compiler'
+	arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -Og -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -fno-move-loop-invariants -Wall  -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xE -DTRACE -I/home/dangnhat/HAL-Drivers/STM32F1xx_HAL_Driver/Inc -I/home/dangnhat/HAL-Drivers/CMSIS/Include -I/home/dangnhat/HAL-Drivers/CMSIS/Device/ST/STM32F1xx/Include -I"../include" -I"../system/include" -I"../system/include/CMSIS" -I"../system/include/stm32f1xx" -std=gnu99 -MMD -MP -MF"$(@:%.o=%.d)" -MT"$@" -c -o "$@" "$<"
+	@echo 'Finished building: $<'
+	@echo ' '
+
+system/src/stm32f1xx/stm32f1xx_hal_wwdg.o: /home/dangnhat/HAL-Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_wwdg.c
+	@echo 'Building file: $<'
+	@echo 'Invoking: Cross ARM C Compiler'
+	arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -Og -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -fno-move-loop-invariants -Wall  -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xE -DTRACE -I/home/dangnhat/HAL-Drivers/STM32F1xx_HAL_Driver/Inc -I/home/dangnhat/HAL-Drivers/CMSIS/Include -I/home/dangnhat/HAL-Drivers/CMSIS/Device/ST/STM32F1xx/Include -I"../include" -I"../system/include" -I"../system/include/CMSIS" -I"../system/include/stm32f1xx" -std=gnu99 -MMD -MP -MF"$(@:%.o=%.d)" -MT"$@" -c -o "$@" "$<"
+	@echo 'Finished building: $<'
+	@echo ' '
+
+system/src/stm32f1xx/stm32f1xx_ll_fsmc.o: /home/dangnhat/HAL-Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_ll_fsmc.c
+	@echo 'Building file: $<'
+	@echo 'Invoking: Cross ARM C Compiler'
+	arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -Og -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -fno-move-loop-invariants -Wall  -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xE -DTRACE -I/home/dangnhat/HAL-Drivers/STM32F1xx_HAL_Driver/Inc -I/home/dangnhat/HAL-Drivers/CMSIS/Include -I/home/dangnhat/HAL-Drivers/CMSIS/Device/ST/STM32F1xx/Include -I"../include" -I"../system/include" -I"../system/include/CMSIS" -I"../system/include/stm32f1xx" -std=gnu99 -MMD -MP -MF"$(@:%.o=%.d)" -MT"$@" -c -o "$@" "$<"
+	@echo 'Finished building: $<'
+	@echo ' '
+
+system/src/stm32f1xx/stm32f1xx_ll_sdmmc.o: /home/dangnhat/HAL-Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_ll_sdmmc.c
+	@echo 'Building file: $<'
+	@echo 'Invoking: Cross ARM C Compiler'
+	arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -Og -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -fno-move-loop-invariants -Wall  -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xE -DTRACE -I/home/dangnhat/HAL-Drivers/STM32F1xx_HAL_Driver/Inc -I/home/dangnhat/HAL-Drivers/CMSIS/Include -I/home/dangnhat/HAL-Drivers/CMSIS/Device/ST/STM32F1xx/Include -I"../include" -I"../system/include" -I"../system/include/CMSIS" -I"../system/include/stm32f1xx" -std=gnu99 -MMD -MP -MF"$(@:%.o=%.d)" -MT"$@" -c -o "$@" "$<"
+	@echo 'Finished building: $<'
+	@echo ' '
+
+system/src/stm32f1xx/stm32f1xx_ll_usb.o: /home/dangnhat/HAL-Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_ll_usb.c
+	@echo 'Building file: $<'
+	@echo 'Invoking: Cross ARM C Compiler'
+	arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -Og -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -fno-move-loop-invariants -Wall  -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xE -DTRACE -I/home/dangnhat/HAL-Drivers/STM32F1xx_HAL_Driver/Inc -I/home/dangnhat/HAL-Drivers/CMSIS/Include -I/home/dangnhat/HAL-Drivers/CMSIS/Device/ST/STM32F1xx/Include -I"../include" -I"../system/include" -I"../system/include/CMSIS" -I"../system/include/stm32f1xx" -std=gnu99 -MMD -MP -MF"$(@:%.o=%.d)" -MT"$@" -c -o "$@" "$<"
 	@echo 'Finished building: $<'
 	@echo ' '
 

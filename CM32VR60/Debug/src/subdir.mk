@@ -44,7 +44,7 @@ C_DEPS += \
 src/%.o: ../src/%.c
 	@echo 'Building file: $<'
 	@echo 'Invoking: Cross ARM C Compiler'
-	arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -Og -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -fno-move-loop-invariants -Wall  -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xE -DTRACE -I"../include" -I"../system/include" -I"../system/include/CMSIS" -I"../system/include/stm32f1xx" -std=gnu99 -MMD -MP -MF"$(@:%.o=%.d)" -MT"$@" -c -o "$@" "$<"
+	arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -Og -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -fno-move-loop-invariants -Wall  -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xE -DTRACE -I/home/dangnhat/HAL-Drivers/STM32F1xx_HAL_Driver/Inc -I/home/dangnhat/HAL-Drivers/CMSIS/Include -I/home/dangnhat/HAL-Drivers/CMSIS/Device/ST/STM32F1xx/Include -I"../include" -I"../system/include" -I"../system/include/CMSIS" -I"../system/include/stm32f1xx" -std=gnu99 -MMD -MP -MF"$(@:%.o=%.d)" -MT"$@" -c -o "$@" "$<"
 	@echo 'Finished building: $<'
 	@echo ' '
 
